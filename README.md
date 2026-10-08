@@ -101,5 +101,6 @@ This is an educational lab. The configuration uses demonstration credentials and
 
 ## Download Project
 
-[Download Cisco Packet Tracer Lab](packet-tracer/enterprise-network.pkt)
+[Download Cisco Packet Tracer Lab](packet-tracer/pkaswitchrouteur.pka)
+
   
