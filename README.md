@@ -18,6 +18,8 @@ The main objectives are to configure IPv4 addressing, subnetting, Cisco routers 
 
 ## Network Topology
 
+![Cisco Enterprise Network Topology](screenshots/topology.png)
+  
 The topology consists of:
 - 1 Cisco Router-PT-Empty with 3 Gigabit Ethernet modules
 - 3 Cisco 2950T-24 switches
