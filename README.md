@@ -98,4 +98,8 @@ This lab strengthened my understanding of IPv4 subnetting, network device config
 
 This is an educational lab. The configuration uses demonstration credentials and is not hardened for production deployment.
 
+
+## Download Project
+
+[Download Cisco Packet Tracer Lab](packet-tracer/enterprise-network.pkt)
   
