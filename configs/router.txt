@@ -1,0 +1,52 @@
+
+! Cisco Enterprise Network Lab
+! Router configuration (sanitized example)
+
+hostname Router
+
+!
+! Privileged mode protection
+!
+enable secret LAB_ENABLE_SECRET
+
+!
+! Achat Department
+!
+interface GigabitEthernet0/0
+ description Achat Department
+ ip address 192.168.0.62 255.255.255.192
+ no shutdown
+ exit
+
+!
+! Administration Department
+!
+interface GigabitEthernet1/0
+ description Admin Department
+ ip address 192.168.0.126 255.255.255.192
+ no shutdown
+ exit
+
+!
+! Vente Department
+!
+interface GigabitEthernet2/0
+ description Vente Department
+ ip address 192.168.0.190 255.255.255.192
+ no shutdown
+ exit
+
+!
+! Remote access (educational lab only)
+!
+line vty 0 4
+ password LAB_VTY_PASSWORD
+ login
+ exit
+
+!
+! IPv4 routing
+!
+ip classless
+
+end
